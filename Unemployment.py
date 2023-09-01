@@ -5,7 +5,7 @@ import datetime as dt
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-df = pd.read_csv('/kaggle/input/unemployment-in-india/Unemployment_Rate_upto_11_2020.csv')
+df = pd.read_csv('/Unemployment_Rate_upto_11_2020.csv')
 df.head()
 df.info()
 df.isnull().sum()
